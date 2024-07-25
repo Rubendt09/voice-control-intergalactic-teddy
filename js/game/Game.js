@@ -32,34 +32,6 @@ class Game {
     Q.allowTraining = false;
 
     window.addEventListener("click", this.clickStart.bind(this));
-    // Q.soundClassifier = new SoundClassifier({
-    // 	k: 5,
-    // 	threshold: 30
-    // })
-    // window.addEventListener('prediction', this.predictionCallback.bind(this));
-
-    // Q.allowMicrophone = false
-    // Q.player = this.player = new Player()
-
-    // Q.duckIcon = new Icon('clap')
-    // Q.jumpIcon = new Icon('say')
-    // Q.title = new Title('main')
-    // Q.jumpTitle = new Title('jump')
-    // Q.duckTitle = new Title('duck')
-    // Q.retryTitle = new Title('retry')
-    // Q.countdownTitle = new BigNumber(3)
-    // Q.countdownTitle.x = (720 - 80) / 2
-    // Q.countdownTitle.y = (570 - 200) / 2
-
-    // Q.showRetry = false
-    // window.addEventListener('keydown', this.keydown.bind(this))
-    // window.addEventListener('hit', this.hit.bind(this))
-
-    // Q.timeoutTimer = null
-    // this.reset(false)
-
-    // this.playing = false
-    // this.isFirst = 0
   }
 
   clickStart(event) {

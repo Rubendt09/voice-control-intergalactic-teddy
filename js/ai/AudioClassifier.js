@@ -240,16 +240,6 @@ class AudioClassifier {
     input.click();
   }
 
-  // toggle() {
-  // this.allowPredicting = !this.allowPredicting
-  // this.predicting = this.allowPredicting
-  // if (this.allowPredicting) {
-  //     document.querySelector('#toggle').textContent = 'Disable prediction'
-  // }else {
-  //     document.querySelector('#toggle').textContent = 'Enable prediction'
-  // }
-  // }
-
   enable() {
     this.allowBroadcasting = true;
     document.querySelector("#disable").style.opacity = 1;
